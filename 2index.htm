@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,59 +6,74 @@
     <title>Page 1</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            background-color: rgb(27, 145, 163);
             margin: 0;
             padding: 0;
-            background-color: #f2f2f2; /* Grayish background */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
-        <link rel="stylesheet" href="style.css">
+
+        /* Header Styles */
+        h1 {
+            color: rgb(36, 39, 31);
+            text-align: center;
+            font-size: 80px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+        /* Paragraph Styles */
+        p {
+            font-size: 55px;
+            text-align: center;
+            line-height: 1.5;
+            margin-bottom: 50px;
+        }
+
+        /* Link Styles */
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #ffd700;
+        }
+
+        /* Container Styles */
         .container {
-            width: 250%;
-            padding: 250px;
+            width: 500px;
+            padding: 25px;
             background-color: #525151;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
+            margin: auto; /* Center the container horizontally */
+            margin-top: 50px; /* Added margin-top for spacing */
+            margin-bottom: 50px; /* Added margin-bottom for spacing */
         }
 
-        h1 {
-            color: #b32222;
-        }
-
-        p {
-            color: #067fca;
-            margin-bottom: 20px;
-        }
-
+        /* Image Styles */
         img {
             width: 100%;
             border-radius: 5px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px; /* Added margin-bottom for spacing */
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Page 2</h1>
-        <p>Hello how are you this nice day, The weather is looking beatuful and so is the sun.  </p>              
-            
-            
-            <a href="2index.html">Math</a>--------------------------------------------------------------------<a href="index.html">Home</a>
-
-            
-
-
-
-            <a href="https://www.accuweather.com/en/jo/amman/221790/weather-forecast/221790">Weather Forecast</a>
-    
-        </p>
-        <img src="https://img.freepik.com/free-photo/white-cloud-blue-sky_74190-7709.jpg" alt="image" style="width: 500px; height: auto;">
+        <p>Hello, how are you this nice day? The weather is looking beautiful and so is the sun.</p>
+        <a href="2index.html">Math</a>
+        <a href="index.html">Home</a>
+        <br> <!-- Added line break for separation -->
+        <img src="https://img.freepik.com/free-photo/white-cloud-blue-sky_74190-7709.jpg" alt="image">
     </div>
 
-    <p>
+    <p style="text-align: center;">
         <a href="https://www.accuweather.com/en/jo/amman/221790/weather-forecast/221790">Weather Forecast</a>
     </p>
 </body>
