@@ -1,36 +1,37 @@
+/* styles.css */
 body {
-    background-color: rgb(27, 145, 163);
-    margin: 0;
-    padding: 0;
+    background-color: rgb(27, 145, 163); /* Changed to a more specific color */
+    margin: 0; /* Added to remove default margin */
+    padding: 0; /* Added to remove default padding */
 }
 
 /* Header Styles */
 h1 {
     color: rgb(36, 39, 31);
     text-align: center;
-    font-size: 80px;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    font-size: 80px; /* Increased font size for emphasis */
+    margin-top: 50px; /* Added margin-top for spacing */
+    margin-bottom: 30px; /* Added margin-bottom for spacing */
 }
 
 /* Paragraph Styles */
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 55px;
-    text-align: center;
-    line-height: 1.5;
-    margin-bottom: 50px;
+    text-align: center; /* Centered paragraph text */
+    line-height: 1.5; /* Increased line height for better readability */
+    margin-bottom: 50px; /* Added margin-bottom for spacing */
 }
 
 /* Link Styles */
 a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+    color: #fff; /* Changed link color to white for better visibility */
+    text-decoration: none; /* Removed underline from links */
+    font-weight: bold; /* Added bold font weight for emphasis */
 }
 
 a:hover {
-    color: #ffd700;
+    color: #ffd700; /* Changed link color on hover for better feedback */
 }
 
 /* Container Styles */
